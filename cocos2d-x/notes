@@ -1,0 +1,39 @@
+Cocos2d-x 
+
+What is it
+  open source
+  c++ port of cocos2d
+  cross platform
+  javascript version
+  WYSIWYG tools
+  only 2d but OpenGL powered
+
+What does it offer
+  organization:
+    scenes
+      sort of represent game state (menu, in game, dead, cutscene)
+      director controls what’s on screen
+    layers
+      makes up a scene
+      can receive input
+  game objects  
+    sprite 
+      can load sprite images or use from a sheet
+      sprites are cached and reused
+      sprite sheets
+      batch draw
+    animations      
+    actions
+      used for transitions and effects
+    physics integration if enabled
+  sound
+    base simple sound
+    1 background sound
+    many effects
+
+What does it look like
+  show breakout
+  talk about box2d
+  the gotcha of can’t modify box2d world during simulation tick
+  gotcha of needed consistent data for user data
+  Gotcha about coordinates 
